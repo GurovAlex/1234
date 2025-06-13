@@ -17,10 +17,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
 	{
 		if (!(isset($_GET["C"])))
 		{
-			echo "error request POST";
+			echo "error request GET";
 		}
 
-		echo "error request POST";
+		echo "error request GET";
 		
 	}
 ?>
