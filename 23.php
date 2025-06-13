@@ -12,6 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
 		$lon 	= $_POST['lon'];
 		$appid 	= $_POST['appid'];
 		$Sess 	= $_POST['Sess'];
+		echo $userID;
 	}
 	else
 	{
@@ -21,6 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
 		}
 
 		echo "error request GET";
+		
+		$userID = $_GET['C'];
+		echo $userID;
 		
 	}
 ?>
