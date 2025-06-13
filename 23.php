@@ -23,4 +23,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
 		echo "error request POST";
 		
 	}
->
+?>
