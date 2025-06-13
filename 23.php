@@ -6,6 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
 			echo "error request POST";
 			exit();
 		}
+		echo "error request POST";
 		$userID = $_POST['C'];
 		$lat 	= $_POST['lat'];
 		$lon 	= $_POST['lon'];
@@ -18,6 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
 		{
 			echo "error request POST";
 		}
+
+		echo "error request POST";
 		
 	}
 >
