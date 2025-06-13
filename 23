@@ -16,8 +16,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
 	{
 		if (!(isset($_GET["C"])))
 		{
-			Furc();
+			echo "error request POST";
 		}
-		Furc();
+		
 	}
 >
